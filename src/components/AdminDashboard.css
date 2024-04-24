@@ -1,0 +1,284 @@
+.admin_dashboard_main {
+    width: 100%;
+    padding: 4.2rem 1.5rem;
+    max-height: calc(100vh - 65px);
+  }
+  
+  .admin_dashboard_main .admin_dashboard_header h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #363949;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_breadcrumb {
+    display: flex;
+    align-items: center;
+    grid-gap: 1.2rem;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_breadcrumb li {
+    color: #363949;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_breadcrumb li a {
+    color: #363949;
+    pointer-events: none;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_breadcrumb li a.admin_dashboard_active {
+    color: #388e3c;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li {
+    padding: 1.8rem;
+    background-color: #f6f6f9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    grid-gap: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li:hover {
+    transform: translateY(-10px);
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li .bx {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 10px;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li:nth-child(1) .bx {
+    background-color: #cfe8ff;
+    color: #1976d2;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li:nth-child(2) .bx {
+    background-color: #fff2c6;
+    color: #fbc02d;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li:nth-child(3) .bx {
+    background-color: #fecdd3;
+    color: #d32f2f;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li:nth-child(4) .bx {
+    background-color: #bbf7d0;
+    color: #388e3c;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li .admin_dashboard_info h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #363949;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_cards li .admin_dashboard_info p {
+    color: #363949;
+  }
+  
+  /* ========Orders Details Start=================== */
+  /* .admin_dashboard_main .admin_dashboard_bottom_data {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    grid-gap: 24px;
+    margin-top: 24px;
+    color: #363949;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data > div {
+    border-radius: 10px;
+    background-color: #f6f6f9;
+    padding: 24px;
+    overflow-x: auto;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_header {
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_header h3 {
+    font-size: 24px;
+    font-weight: 600px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders {
+    flex-grow: 1;
+    flex-basis: 500;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table th {
+    padding: 12px 10px;
+    font-size: 1rem;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+    background-color: #eee;
+    color: #363949;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table td {
+    padding: 12px 10px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table .admin_dashboard_img_content {
+    display: flex;
+    align-items: center;
+    grid-gap: 12px;
+    padding-left: 6px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data table td img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table tbody tr {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table td .admin_dashboard_status {
+    font-size: 10px;
+    padding: 6px 16px;
+    color: #f6f6f9;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table td .admin_dashboard_status.completed {
+    background-color: #388e3c;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table td .admin_dashboard_status.processing {
+    background-color: #1976d2;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table td .admin_dashboard_status.pending {
+    background-color: #fbc02d;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders {
+    flex-grow: 1;
+    flex-basis: 300px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list {
+    width: 100%;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li {
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #eee;
+    padding: 14px 10px;
+    border-radius: 05px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li .admin_dashboard_task_title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li .admin_dashboard_task_title p {
+    margin-left: 6px;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li .bx {
+    cursor: pointer;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li.admin_dashboard_completed {
+    border-left: 5px solid #388e3c;
+  }
+  
+  .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list li.admin_dashboard_uncomplete {
+    border-left: 5px solid #d32f2f;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 200px;
+    }
+    .content {
+      width: calc(100% - 60px);
+      left: 200px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .content nav form .form-input input {
+      display: none;
+    }
+  
+    .content nav form .form-input button {
+      background-color: #aaaaaa;
+    }
+  
+    .content nav form .form-input input {
+      width: 100%;
+      display: block;
+    }
+  
+    .content nav form.show .form-input button {
+      width: 36px;
+      height: 100%;
+      color: #f6f6f9;
+      background-color: #363949;
+      border-radius: 0 36px 36px 0;
+    }
+  
+    .content nav form.show ~ .notification,
+    .content nav form.show ~ .profile {
+      display: none;
+    }
+  
+    .admin_dashboard_main .admin_dashboard_cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_header {
+      min-width: 340px;
+    }
+  
+    .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_orders table {
+      min-width: 340px;
+    }
+  
+    .admin_dashboard_main .admin_dashboard_bottom_data .admin_dashboard_reminders .admin_dashboard_task_list {
+      min-width: 340px;
+    }
+  } */
+  

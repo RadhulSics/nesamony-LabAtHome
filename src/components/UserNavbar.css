@@ -1,0 +1,12 @@
+.user_nav_content{
+  height: 67px;
+  width: 100px;
+  /* background-color: rgb(231, 136, 13); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_nav_content a{
+    text-decoration: none;
+}

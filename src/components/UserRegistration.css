@@ -1,0 +1,66 @@
+.user_reg{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../Assets/Rectangle\ 1.png);
+    
+
+}
+
+.user_reg_head {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.user_reg_head_title {
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  background: linear-gradient(135deg, #f761a1 0%, #8c1bab 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user_reg_head_para {
+  color: var(--Dark-Dark-1, #343d42);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 128.571% */
+}
+
+.user_reg_content {
+  width: 1013px;
+  /* height: 1012px; */
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.user_reg_content_title{
+    color: var(--Brand-Brand-3, #843E71);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Body Title/T 2 */
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+}
+
+.user_reg_btn{
+    display: inline-flex;
+padding: 18px 44px;
+align-items: flex-start;
+border: none;
+border-radius: 6px;
+background: linear-gradient(135deg, #FF96F9 0%, #C32BAC 100%);
+}
+
+.user_reg_btn_div{
+    text-align: center;
+    margin-top: 2rem;
+}

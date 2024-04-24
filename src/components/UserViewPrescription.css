@@ -1,0 +1,76 @@
+.user_prescription{
+    padding: 50px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.user_prescription_head{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_prescription_head_left{
+    display: flex;
+    align-items: center;
+}
+
+.user_prescription_head_left img{
+    height: 80px;
+    width: 80px;
+}
+
+.user_prescription_head_left h4{
+    font-size: 25px;
+    margin: 0 5px;
+    font-weight: 600;
+    color: #63b7f2;
+}
+
+.user_prescription_head_right p{
+    text-align: right;
+}
+
+.user_prescription_head_right_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #63b7f2;
+}
+
+.user_prescription_body{
+    width: 100%;
+    padding: 20px 30px;
+    /* background-color: aliceblue; */
+    min-height: 90vh;
+}
+
+.user_prescription_body_head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_prescription_body_title{
+    border-bottom: 1px dotted black;
+}
+
+
+.user_prescription_body_content table{
+    width: 90%;
+    /* margin-top: 10rem; */
+    margin: 10rem auto;
+   
+}
+
+.user_prescription_body_content th,td{
+    padding: 10px;
+}
+
+.user_prescription_body_footer{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.user_prescription_body_footer p{
+    margin: 0;
+}

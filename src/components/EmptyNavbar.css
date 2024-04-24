@@ -1,0 +1,38 @@
+.empty_navbar {
+  width: 100%;
+  /* height: 20vh; */
+  align-items: baseline;
+  padding-top: 20px;
+}
+
+.empty_navbar_logo {
+  width: 140px;
+  height: 67px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #f190d9 0%, #d939cd 100%);
+  padding: 15px 10px;
+}
+
+.empty_navbar_logo_title1 {
+  color: #fff;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.empty_navbar_logo_title2{
+    
+color: #FFF;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: lowercase;
+/* text-align: right; */
+
+}

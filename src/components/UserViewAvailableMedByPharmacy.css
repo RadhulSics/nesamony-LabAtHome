@@ -1,0 +1,68 @@
+.prescription_invoice{
+    padding: 100px 50px;
+}
+
+.prescription_invoice_title h1{
+    padding: 20px 0;
+}
+
+.brand-section{
+    background-color: #63b7f3;
+    padding: 10px 40px;
+ }
+
+
+ .text-white{
+     color: #fff;
+ }
+ .company-details{
+     float: right;
+     text-align: right;
+ }
+ .body-section{
+     padding: 16px;
+     border: 1px solid gray;
+ }
+ .heading{
+     font-size: 20px;
+     margin-bottom: 08px;
+ }
+ .sub-heading{
+     color: #262626;
+     margin-bottom: 05px;
+ }
+ .invoice_table table{
+     background-color: #fff;
+     width: 100%;
+     border-collapse: collapse;
+ }
+ .invoice_table table .invoice_table thead .invoice_table tr{
+     border: 1px solid #111;
+     background-color: #f2f2f2;
+ }
+ .invoice_table .invoice_table table .invoice_table td {
+     vertical-align: middle !important;
+     text-align: center;
+ }
+ .invoice_table table .invoice_table th, .invoice_table table .invoice_table td  {
+     padding-top: 08px;
+     padding-bottom: 08px;
+ }
+ .invoice_table .table-bordered{
+     box-shadow: 0px 0px 5px 0.5px gray;
+ }
+ .invoice_table .table-bordered td, .invoice_table .table-bordered th {
+     border: 1px solid #dee2e6;
+     padding: 10px;
+     padding-top: 08px;
+     padding-bottom: 08px;
+ }
+ .text-right{
+     text-align: end;
+ }
+ .w-20{
+     width: 20%;
+ }
+ .float-right{
+     float: right;
+ }
